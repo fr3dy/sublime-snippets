@@ -1,0 +1,36 @@
+<snippet>
+	<content><![CDATA[
+<!DOCTYPE HTML>
+<html lang='es'>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>${1:titulo}</title>
+        <!-- <link href="styles/screen.css" rel="stylesheet" type="text/css"> -->
+    </head>
+ 
+    <body>
+        <div class="contenedor">
+            <header>
+            </header>
+ 
+            <aside>
+                <nav>
+                    <ul>
+                        <li><a href="#">Inicio</a></li>
+                    </ul>
+                </nav>
+            </aside>
+ 
+            <article class="contenido">
+            	${2:Hola Mundo}
+            </article>
+ 
+            <footer>
+            </footer>
+        </div>
+    </body>
+</html>
+]]></content>
+	<!-- tabTrigger pata ejecutar el snippet -->
+	<tabTrigger>html5</tabTrigger>
+</snippet>
