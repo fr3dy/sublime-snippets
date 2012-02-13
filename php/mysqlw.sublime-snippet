@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+\$c$1 = fQuery(\$vQuery);
+
+while(\$a$1 = \$c$1->fetch_array()){
+
+}
+\$c$1->close();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mysqlw</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
